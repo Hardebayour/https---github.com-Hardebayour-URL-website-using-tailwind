@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css" />
+    <title>Url website</title>
+  </head>
+
+  <!-- style -->
+  <style>
+    .backround {
+      background: #54457f;
+      width: 100%;
+    }
+    .shortenBg {
+      background-image: url(/images/bg-shorten-desktop.svg);
+      width: 100%;
+    }
+    .shortenMtop {
+      margin-top: 10px;
+    }
+    .card {
+      border: none;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      max-width: 300px;
+    }
+    .card img {
+      background: #30264a;
+      width: 20%;
+    }
+    footer {
+      background: #232027;
+    }
+    footer a {
+      font-size: 11px;
+      margin-top: 8px;
+    }
+  </style>
+
+  <body class="text-gray-600">
+    <!-- header -->
+    <header>
+      <nav>
+        <div class="flex items-center justify-start px-36 py-9 mNav">
+          <div>
+            <img src="/images/logo.svg" class="mt-3 md-0" alt="logo" />
+          </div>
+          <div class="space-x-3 px-7 font-medium">
+            <a href="#" class="hover:text-black">Features</a>
+            <a href="#" class="hover:text-black">Pricing</a>
+            <a href="#" class="hover:text-black">Resources</a>
+          </div>
+          <div class="ms-auto space-x-4 font-medium mbtn">
+            <a href="#" class="hover:text-black">Login</a>
+            <a
+              href="#"
+              class="px-6 py-2 text-white bg-teal-500 rounded-full hover:bg-teal-700"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- section 1 -->
+    <section>
+      <div class="flex flex-col md:flex-row">
+        <div>
+          <img
+            src="/images/illustration-working.svg"
+            class="w-100 block md:hidden mt-4 md:mt-0"
+            alt=""
+          />
+        </div>
+        <div class="px-36 mt-12 text-center md:text-left md:max-w-lg">
+          <h1 class="font-extrabold text text-black text-xl md:text-4xl">
+            More than just shorter links
+          </h1>
+          <p class="text-gray-400 mt-2">
+            Build your brand's recognition and get detailed insights on how your
+            links are performing.
+          </p>
+          <div class="mt-10">
+            <a
+              href="#"
+              class="px-6 py-2 font-bold text-white bg-teal-500 rounded-full hover:bg-teal-700"
+              >Get Started</a
+            >
+          </div>
+        </div>
+        <div>
+          <img
+            src="/images/illustration-working.svg"
+            class="w-100 hidden md:block"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- section 2 -->
+    <section class="bg-gray-200 relative shortenMtop pt-[100px]">
+      <div
+        class="mt-10 md:mt-0 px-36 flex justify-center items-center absolute w-[100%] top-[-50px]"
+      >
+        <div class="flex mt-4 rounded-lg backround">
+          <div
+            class="flex flex-col md:flex-row gap-4 justify-center items-center py-6 px-4 rounded shortenBg"
+          >
+            <input
+              type="text"
+              placeholder="Shorten a link here..."
+              class="form-control px-6 py-2 bg-white border rounded-lg focus:outline-teal-500"
+              style="width: 80%"
+            />
+            <a
+              href="#"
+              class="px-6 py-2 font-bold text-white bg-teal-500 rounded-xl hover:bg-teal-400"
+              >Shorten It!</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- advance statics or card  -->
+      <div
+        class="flex flex-col justify-center items-center text-center md:text-center advancePandding"
+      >
+        <h1 class="font-bold text-black text-3xl">Advanced statistics</h1>
+        <p class="text-base md:text-base font-medium mt-3">
+          Track how your links are performing across the web with <br />our
+          advanced statistics dashboard.
+        </p>
+      </div>
+
+      <div
+        class="flex flex-col md:flex-row justify-center items-center gap-6 py-16"
+      >
+        <!-- card 1 -->
+        <div class="p-6 card">
+          <div>
+            <img
+              src="/images/icon-brand-recognition.svg"
+              class="mb-4 rounded-full"
+              alt=""
+            />
+          </div>
+          <h3 class="text-xl text-black font-bold">Brand Recognition</h3>
+          <p class="font-medium text-sm mt-2">
+            Boost your brand recognition with each other click. Generic links
+            dont mean a thigs. Branded links help install confidence in your
+            content.
+          </p>
+        </div>
+        <!-- card 2 -->
+        <div class="p-6 card">
+          <div>
+            <img
+              src="/images/icon-detailed-records.svg"
+              class="mb-4 rounded-full"
+              alt=""
+            />
+          </div>
+          <h3 class="text-xl text-black font-bold">Detailed Records</h3>
+          <p class="font-medium text-sm mt-2">
+            Gain insights into who is clicking your links. Knowing when and
+            where people engage with your content helps inform better decisions.
+          </p>
+        </div>
+        <!-- card 3 -->
+        <div class="p-6 card">
+          <div>
+            <img
+              src="/images/icon-fully-customizable.svg"
+              class="mb-4 rounded-full"
+              alt=""
+            />
+          </div>
+          <h3 class="text-xl text-black font-bold">Fully Customizable</h3>
+          <p class="font-medium text-sm mt-2">
+            Improve brand awareness and content discoverability through
+            customizable links. supercharging audience engagement.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3 -->
+    <section>
+      <div class="text-center text-white py-10 backround shortenBg">
+        <h1 class="font-bold text-2xl mb-5">Boost your links today</h1>
+        <a
+          href="#"
+          class="px-7 py-2 font-bold text-white bg-teal-500 rounded-full hover:bg-teal-700 mt-6"
+          >Get Started</a
+        >
+      </div>
+    </section>
+
+    <!-- footer/last-section -->
+    <footer>
+      <div
+        class="flex flex-col md:flex-row justify-between items-center py-7 px-36"
+      >
+        <div class="text-white font-bold text-3xl md:text-xl mb-3">
+          <h1>Shortly</h1>
+        </div>
+
+        <div class="flex flex-col mb-5 text-gray-400 font-medium">
+          <h1 class="font-bold text-white">Features</h1>
+          <a href="#" class="hover:text-teal-400">Link Shortening</a>
+          <a href="#" class="hover:text-teal-400">Branded Links</a>
+          <a href="#" class="hover:text-teal-400">Analytics</a>
+        </div>
+
+        <div class="flex flex-col mb-5 text-gray-400 font-medium">
+          <h1 class="font-bold text-white">Resources</h1>
+          <a href="#" class="hover:text-teal-400">Blog</a>
+          <a href="#" class="hover:text-teal-400">Developers</a>
+          <a href="#" class="hover:text-teal-400">Support</a>
+        </div>
+
+        <div class="flex flex-col mb-5 text-gray-400 font-medium">
+          <h1 class="font-bold text-white">Company</h1>
+          <a href="#" class="hover:text-teal-400">About</a>
+          <a href="#" class="hover:text-teal-400">Our Team</a>
+          <a href="#" class="hover:text-teal-400">Careers</a>
+          <a href="#" class="hover:text-teal-400">Contacts</a>
+        </div>
+
+        <div class="flex gap-4 mb-20">
+          <img
+            src="/images/icon-facebook.svg"
+            class="hover:bg-teal-400 w-5 h-5"
+            alt=""
+          />
+          <img
+            src="/images/icon-twitter.svg"
+            class="hover:bg-teal-400 w-5 h-5"
+            alt=""
+          />
+          <img
+            src="/images/icon-pinterest.svg"
+            class="hover:bg-teal-400 w-5 h-5"
+            alt=""
+          />
+          <img
+            src="/images/icon-instagram.svg"
+            class="hover:bg-teal-400 w-5 h-5"
+            alt=""
+          />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
