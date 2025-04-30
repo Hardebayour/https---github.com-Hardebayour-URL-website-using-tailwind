@@ -1,3 +1,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.backround {
+  background: #54457f;
+  width: 100%;
+}
+.shortenBg {
+  background-image: url(/images/bg-shorten-desktop.svg);
+  width: 100%;
+}
+.shortenMtop {
+  margin-top: 10px;
+}
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+.card img {
+  background: #30264a;
+  width: 20%;
+}
+footer {
+  background: #232027;
+}
+footer a {
+  font-size: 11px;
+  margin-top: 8px;
+}
